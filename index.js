@@ -3,7 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import App from './src/Components/downloadVideo';
+import App from './src/Redux/index';
 import {name as appName} from './app.json';
 import React from 'react';
 

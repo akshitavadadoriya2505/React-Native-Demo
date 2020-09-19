@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import {View, Text} from 'react-native';
 import firebase from 'react-native-firebase';
-// import PushNotificationIOS from '@react-native-community/push-notification-ios';
 import PushNotification from 'react-native-push-notification';
 
 const Splash = (props) => {
@@ -14,8 +13,7 @@ const Splash = (props) => {
     // setInterval(() => {
     //   testPush();
     // }, 3000);
-
-    test();
+    // test();
   });
 
   const test = () => {
